@@ -1,7 +1,7 @@
 import requests
 
 query = input("what type of news are you interested in today? ")
-api = "7d301898e9e047c1b6005d6f93dfa970"
+api = "PASTE_YOUR_API_KEY_HERE"
 url = f"https://newsapi.org/v2/everything?q={query}&from=2026-06-14&to=2026-06-14&sortBy=popularity&apiKey={api}"
 
 
